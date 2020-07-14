@@ -120,6 +120,12 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 ## Requirements
 A ```README.md``` file at the root of the folder of the project is mandatory
 
+## Sitemap of the project
+![sitemap](sitemap.png)
+
+## Wireframe of ```Techium``` project
+![wireframe](wireframe.png)
+
 ## Tasks
 * [x] 0. Create your first webpage
 * [x] 1. Structure your webpage
