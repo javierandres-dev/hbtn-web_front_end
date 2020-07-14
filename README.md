@@ -6,7 +6,7 @@
 :open_file_folder:
 * [x] 582 0x00. Advanced HTML
 
-## Developer
+## Software engineer
 Javier Andrés Garzón Patarroyo  
 :octocat: [GitHub](https://github.com/javierandresgp/)  
 :link: [Linkedin](https://www.linkedin.com/in/javierandresgp/)  

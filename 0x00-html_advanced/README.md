@@ -163,7 +163,7 @@ A ```README.md``` file at the root of the folder of the project is mandatory
 * [x] 39. Add an audio player in the styleguide
 * [x] 40. Add a iframe example in the styleguide
 
-## Developer
+## Software engineer
 Javier Andrés Garzón Patarroyo  
 :octocat: [GitHub](https://github.com/javierandresgp/)  
 :link: [Linkedin](https://www.linkedin.com/in/javierandresgp/)  
