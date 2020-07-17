@@ -5,6 +5,7 @@
 ## Projects
 :open_file_folder:
 * [x] 582 0x00. Advanced HTML
+* [ ] 590 0x01. Developer tools
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
