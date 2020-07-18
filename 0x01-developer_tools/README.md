@@ -50,23 +50,23 @@ A ```README.md``` file at the root of the folder of the project is mandatory
 * [x] 15. Holberton web framework
 * [x] 16. Homepage weight
 * [x] 17. Number of requests
-* [ ] 18. Number of CSS files
-* [ ] 19. Number of images
-* [ ] 20. Favicon image type
-* [ ] 21. Font library
-* [ ] 22. XHR calls
-* [ ] 23. Audits panel
-* [ ] 24. Static assets
-* [ ] 25. Accessibility
-* [ ] 26. No alt
-* [ ] 27. Best practices
-* [ ] 28. SEO
-* [ ] 29. Sources
-* [ ] 30. Block CSS files
-* [ ] 31. Application panel
-* [ ] 32. Service workers
-* [ ] 33. Security
-* [ ] 34. Expiration date
+* [x] 18. Number of CSS files
+* [x] 19. Number of images
+* [x] 20. Favicon image type
+* [x] 21. Font library
+* [x] 22. XHR calls
+* [x] 23. Audits panel
+* [x] 24. Static assets
+* [x] 25. Accessibility
+* [x] 26. No alt
+* [x] 27. Best practices
+* [x] 28. SEO
+* [x] 29. Sources
+* [x] 30. Block CSS files
+* [x] 31. Application panel
+* [x] 32. Service workers
+* [x] 33. Security
+* [x] 34. Expiration date
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
