@@ -32,24 +32,24 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 A ```README.md``` file at the root of the folder of the project is mandatory
 
 ## Tasks
-* [ ] 0. Responsive device
-* [ ] 1. Change the background color
-* [ ] 2. Force element state
-* [ ] 3. Copy all the styles of the button
-* [ ] 4. Change button styles
-* [ ] 5. Remove part of the website
-* [ ] 6. Where is it coming from?
-* [ ] 7. How many listeners
-* [ ] 8. What is the HSL code
-* [ ] 9. The max-width of the container
-* [ ] 10. Moving around
-* [ ] 11. Coverage
-* [ ] 12. Emulate the print version of the webpage
-* [ ] 13. Using the console
-* [ ] 14. Write code in the console
-* [ ] 15. Holberton web framework
-* [ ] 16. Homepage weight
-* [ ] 17. Number of requests
+* [x] 0. Responsive device
+* [x] 1. Change the background color
+* [x] 2. Force element state
+* [x] 3. Copy all the styles of the button
+* [x] 4. Change button styles
+* [x] 5. Remove part of the website
+* [x] 6. Where is it coming from?
+* [x] 7. How many listeners
+* [x] 8. What is the HSL code
+* [x] 9. The max-width of the container
+* [x] 10. Moving around
+* [x] 11. Coverage
+* [x] 12. Emulate the print version of the webpage
+* [x] 13. Using the console
+* [x] 14. Write code in the console
+* [x] 15. Holberton web framework
+* [x] 16. Homepage weight
+* [x] 17. Number of requests
 * [ ] 18. Number of CSS files
 * [ ] 19. Number of images
 * [ ] 20. Favicon image type
