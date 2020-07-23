@@ -6,7 +6,7 @@
 :open_file_folder:
 * [x] 582 0x00. Advanced HTML
 * [x] 590 0x01. Developer tools
-* [ ] 583 0x02. Advanced CSS
+* [x] 583 0x02. Advanced CSS
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  

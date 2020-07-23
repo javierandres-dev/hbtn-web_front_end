@@ -96,44 +96,47 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 * How to transform (2d, 3d) elements
 * What vendor prefixes are
 
+## End goal of the project
+![End goal of the project](end-goal-of-the-project.png)
+
 ## Requirements
 A ```README.md``` file at the root of the folder of the project is mandatory  
 Your code should be W3C compliant and validate with W3C-Validator
 
 ## Tasks
-* [ ] 0. Let's get some images!
-* [ ] 1. Effortless transitions when scrolling
-* [ ] 2. Do you know your color values?
-* [ ] 3. Reuse and repeat. A programmer's life should be simple with variables
-* [ ] 4. Variables for storing certain font types
-* [ ] 5. Variables for the font size
-* [ ] 6. Variables for the font-weight
-* [ ] 7. Integrating Google Fonts into the CSS file
-* [ ] 8. Defining line heights
-* [ ] 9. Links are decorated by default, time to remove them
-* [ ] 10. Centering the section titles
-* [ ] 11. Add more styles to the section tagline
-* [ ] 12. Adding more styling to the section title
-* [ ] 13. Pseudo Classes
-* [ ] 14. Resetting the CSS stylesheet for browser consistency
-* [ ] 15. Add universal box-sizing
-* [ ] 16. Styling the container
-* [ ] 17. Adding padding to sections
-* [ ] 18. Customizing the navbar
-* [ ] 19. Grid styling and custom variables
-* [ ] 20. Clear the context of the grid
-* [ ] 21. Simplify the col- selector
-* [ ] 22. Add a dark theme to sections
-* [ ] 23. Fix issues for dark theme
-* [ ] 24. Add background and hover state to services
-* [ ] 25. Add border to the button
-* [ ] 26. Add border radius to images
-* [ ] 27. Styling the section hero
-* [ ] 28. Fixing the header and menu navigation bar
-* [ ] 29. Styling and custom properties for the nav
-* [ ] 30. Fix the works section
-* [ ] 31. Add quotes decoration on testimonials
-* [ ] 32. Incorporating transitions
+* [x] 0. Let's get some images!
+* [x] 1. Effortless transitions when scrolling
+* [x] 2. Do you know your color values?
+* [x] 3. Reuse and repeat. A programmer's life should be simple with variables
+* [x] 4. Variables for storing certain font types
+* [x] 5. Variables for the font size
+* [x] 6. Variables for the font-weight
+* [x] 7. Integrating Google Fonts into the CSS file
+* [x] 8. Defining line heights
+* [x] 9. Links are decorated by default, time to remove them
+* [x] 10. Centering the section titles
+* [x] 11. Add more styles to the section tagline
+* [x] 12. Adding more styling to the section title
+* [x] 13. Pseudo Classes
+* [x] 14. Resetting the CSS stylesheet for browser consistency
+* [x] 15. Add universal box-sizing
+* [x] 16. Styling the container
+* [x] 17. Adding padding to sections
+* [x] 18. Customizing the navbar
+* [x] 19. Grid styling and custom variables
+* [x] 20. Clear the context of the grid
+* [x] 21. Simplify the col- selector
+* [x] 22. Add a dark theme to sections
+* [x] 23. Fix issues for dark theme
+* [x] 24. Add background and hover state to services
+* [x] 25. Add border to the button
+* [x] 26. Add border radius to images
+* [x] 27. Styling the section hero
+* [x] 28. Fixing the header and menu navigation bar
+* [x] 29. Styling and custom properties for the nav
+* [x] 30. Fix the works section
+* [x] 31. Add quotes decoration on testimonials
+* [x] 32. Incorporating transitions
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
