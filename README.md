@@ -7,6 +7,7 @@
 * [x] 582 0x00. Advanced HTML
 * [x] 590 0x01. Developer tools
 * [x] 583 0x02. Advanced CSS
+* [ ] 363 0x03. Sass & Scss
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
