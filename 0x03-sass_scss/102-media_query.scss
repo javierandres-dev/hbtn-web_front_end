@@ -1,0 +1,21 @@
+/* Sass file */
+$fs20: 20px;
+$fs18: 18px;
+$fs16: 16px;
+$fs14: 14px;
+$tc: #1D1D1D;
+h1 {
+  font-size: $fs20;
+  @media screen and (max-width: 960px) {
+    font-size: $fs18;
+  }
+  @media screen and (max-width: 640px) {
+    font-size: $fs16;
+  }
+  @media screen and (max-width: 320px) {
+    font-size: $fs14;
+    &.small {
+      color: $tc;
+    }
+  }
+}
