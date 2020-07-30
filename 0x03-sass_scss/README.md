@@ -30,6 +30,7 @@ A ```README.md``` file.
 ### Install Sass/Scss on Ubuntu 18.04 LTS
 ```
 $ apt-get install -y ruby2.5 ruby2.5-dev
+$ apt-get install ruby make gcc
 $ gem install sass -v 3.7.4
 $ sass --version
 Ruby Sass 3.7.4
@@ -49,22 +50,22 @@ $
 ```
 
 ## Tasks
-* [ ] 0. Always debugging!
-* [ ] 1. Color variable
-* [ ] 2. Colors
-* [ ] 3. Nested tag
-* [ ] 4. Nested class
-* [ ] 5. Nested child
-* [ ] 6. Nested hover
-* [ ] 7. Nested and nested again
-* [ ] 8. Margin mixin
-* [ ] 9. Extended
-* [ ] 10. Import colors
-* [ ] 11. For each
-* [ ] 12. Loop Headers
-* [ ] 13. Columns and operators
-* [ ] 14. Media query #0
-* [ ] 15. Media query #1
+* [x] 0. Always debugging!
+* [x] 1. Color variable
+* [x] 2. Colors
+* [x] 3. Nested tag
+* [x] 4. Nested class
+* [x] 5. Nested child
+* [x] 6. Nested hover
+* [x] 7. Nested and nested again
+* [x] 8. Margin mixin
+* [x] 9. Extended
+* [x] 10. Import colors
+* [x] 11. For each
+* [x] 12. Loop Headers
+* [x] 13. Columns and operators
+* [x] 14. Media query #0
+* [x] 15. Media query #1
 * [ ] 16. Sort!
 
 ## Software engineer
@@ -73,4 +74,3 @@ Javier Andrés Garzón Patarroyo
 :link: [Linkedin](https://www.linkedin.com/in/javierandresgp/)  
 :link: [Twitter](https://twitter.com/javierandresgp0)  
 :man_technologist: :books: :computer: :globe_with_meridians:
-
