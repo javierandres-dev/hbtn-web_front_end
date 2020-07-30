@@ -1,0 +1,16 @@
+/* Sass file */
+$fs: 12px;
+$tc0: #00FF00;
+$tc1: #FF0000;
+.info {
+  font-size: $fs;
+}
+.success {
+  @extend .info;
+  color: $tc0;
+}
+.warning {
+  @extend .info;
+  color: $tc1;
+}
+
