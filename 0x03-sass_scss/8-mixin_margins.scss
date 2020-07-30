@@ -1,0 +1,12 @@
+/* Sass file */
+@mixin margin-x($ml, $mr){
+  margin-left: $ml;
+  margin-right: $mr;
+}
+body {
+  @include margin-x(10px, 10px);
+}
+div {
+  @include margin-x(15px, 15px);
+}
+
