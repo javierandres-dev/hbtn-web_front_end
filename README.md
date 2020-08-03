@@ -8,6 +8,7 @@
 * [x] 590 0x01. Developer tools
 * [x] 583 0x02. Advanced CSS
 * [x] 363 0x03. Sass & Scss
+* [ ] 598 0x04. Flexbox
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
