@@ -16,9 +16,9 @@
 /* Variables
    ============================= */
 
-  :root {
-  --color-primary: #D73953;
-  --color-black:  #090909;
+:root {
+  --color-primary: #d73953;
+  --color-black: #090909;
   --color-white: #ffffff;
   --color-grey: #a0a0a0;
   --color-light-grey: #f3f3f3;
@@ -26,8 +26,9 @@
 
   --text-color: var(--color-black);
 
-  --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   --font-size-small: 1.2rem;
   --font-size-medium: 1.6rem;
@@ -70,7 +71,7 @@
   --nav-item-font-family: var(--font-family-headings);
   --nav-item-font-weight: var(--font-weight-bold);
   --nav-item-font-size: var(--font-size-medium);
-  --nav-item-letter-spacing: .04rem;
+  --nav-item-letter-spacing: 0.04rem;
   --nav-item-display: inline-block;
   --nav-item-margin: 0 0 0 2rem;
   --nav-item-link-hover: var(--color-white);
@@ -87,20 +88,22 @@
   --button-hover-background: var(--color-primary);
 
   /** MOTION **/
-  --transition-duration: .3s;
+  --transition-duration: 0.3s;
   --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
 }
 
 /* Base
-    ============================= */
+      ============================= */
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
 html {
-scroll-behavior: smooth;
-font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
 }
 
 body {
@@ -111,7 +114,12 @@ body {
   line-height: var(--line-height-base);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
 }
@@ -151,7 +159,7 @@ a:active {
 }
 
 /* Helpers
-    ============================= */
+      ============================= */
 
 .visually-hidden:not(:focus):not(:active) {
   position: absolute !important;
@@ -165,7 +173,7 @@ a:active {
 /*** 2. LAYOUT ***/
 
 /* Layout
-    ============================= */
+      ============================= */
 
 .container {
   width: 960px;
@@ -174,7 +182,7 @@ a:active {
 }
 
 /* Grid
-    ============================= */
+      ============================= */
 
 ul.row {
   margin: -1rem;
@@ -186,7 +194,7 @@ ul.row {
   display: flex;
 }
 
-[class*='col-'] {
+[class*="col-"] {
   margin: 1rem;
 }
 
@@ -199,7 +207,7 @@ ul.row {
 }
 
 /* Navbar
-    ============================= */
+      ============================= */
 
 .nav {
   margin: 0;
@@ -232,7 +240,7 @@ ul.row {
 }
 
 .nav .nav-link::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -248,7 +256,7 @@ ul.row {
 }
 
 /* Header
-    ============================= */
+      ============================= */
 
 .header {
   padding: var(--header-padding);
@@ -264,7 +272,7 @@ ul.row {
 }
 
 /* Footer
-    ============================= */
+      ============================= */
 
 .footer {
   --nav-item-font-weight: normal;
@@ -297,7 +305,7 @@ ul.row {
 /*** 3. SECTION ***/
 
 /* Section (all styles)
-    ============================= */
+      ============================= */
 
 .section {
   padding: var(--section-padding);
@@ -334,7 +342,7 @@ ul.row {
 }
 
 /* Section theming
-    ============================= */
+      ============================= */
 
 [data-section-theme="dark"] {
   --button-color: var(--color-white);
@@ -344,7 +352,7 @@ ul.row {
 }
 
 /* Section HERO
-    ============================= */
+      ============================= */
 
 .section-hero {
   position: relative;
@@ -352,7 +360,7 @@ ul.row {
 }
 
 .hero-homepage {
-  background-image: url(images/banner-home.jpg);
+  background-image: url(../../../../project/src/images/banner-home.jpg);
   background-position: 75% 0;
   background-repeat: no-repeat;
   background-size: 90rem auto;
@@ -379,37 +387,37 @@ ul.row {
   min-height: 50vh;
 }
 /* Section Latest news
-    ============================= */
+      ============================= */
 
 .section-latest-news .row {
   flex-direction: row-reverse;
 }
 
 /* Section SERVICES
-    ============================= */
+      ============================= */
 
 .section-services .row {
   flex-wrap: wrap;
 }
 
 /* Section ABOUT US
-    ============================= */
+      ============================= */
 
-.section-about-us [class*='col-'] {
+.section-about-us [class*="col-"] {
   align-self: center;
 }
 
 /*** 4. CARD ***/
 
 /* Card (all styles)
-    ============================= */
+      ============================= */
 
 .card-category {
   color: var(--color-primary);
 }
 
 /* Card WORK
-    ============================= */
+      ============================= */
 
 .card-work .card-outer {
   position: relative;
@@ -466,7 +474,7 @@ ul.row {
   left: 0;
   right: 0;
   bottom: 0;
-  content: '';
+  content: "";
 }
 
 .card-work:hover .card-title {
@@ -474,7 +482,7 @@ ul.row {
 }
 
 /* Card SERVICES
-    ============================= */
+      ============================= */
 
 .card-services .card-title {
   margin: 0;
@@ -495,7 +503,7 @@ ul.row {
 }
 
 /* Card TESTIMONIAL
-    ============================= */
+      ============================= */
 
 .card-testimonial {
   text-align: center;
@@ -518,7 +526,7 @@ ul.row {
 }
 
 .card-testimonial .card-quote::before {
-  content: '\201C';
+  content: "\201C";
   position: absolute;
   top: -4.5rem;
   left: -1rem;
@@ -530,7 +538,7 @@ ul.row {
 /*** ARTICLE PAGE ***/
 
 /* Section HERO (article)
-    ============================= */
+      ============================= */
 
 .hero-article {
   background-size: 150rem 100rem;
@@ -538,7 +546,7 @@ ul.row {
 }
 
 .hero-article::before {
-  content: '';
+  content: "";
   background: rgba(0, 0, 0, 0.8);
   position: absolute;
   top: 0;
@@ -565,7 +573,7 @@ ul.row {
 }
 
 /* Post
-    ============================= */
+      ============================= */
 
 .post {
   display: flex;
@@ -600,7 +608,7 @@ ul.row {
 }
 
 /* Post Meta
-    ============================= */
+      ============================= */
 
 .post-meta-list {
   flex-direction: column;
@@ -615,19 +623,19 @@ ul.row {
   display: block;
 }
 
-.post-meta-list [class*='post-meta'] {
+.post-meta-list [class*="post-meta"] {
   margin-bottom: 1rem;
   padding-bottom: 1rem;
   border-bottom: 0.2rem solid var(--color-light-grey);
 }
 
-.post-meta-list [class*='post-meta']:last-child {
+.post-meta-list [class*="post-meta"]:last-child {
   border: none;
   margin-bottom: 3rem;
 }
 
 /* Tag list
-    ============================= */
+      ============================= */
 
 .tag-list {
   padding: 0;
@@ -648,8 +656,7 @@ ul.row {
 
 /*** FORM ***/
 /* Comment section
-  ============================= */
-
+    ============================= */
 .post-comments {
   width: 80%;
   margin: 10rem 0 0 auto;
@@ -661,7 +668,8 @@ ul.row {
 }
 
 /* Basic form
-  ============================= */
+    ============================= */
+
 form {
   display: flex;
   flex-direction: column;
@@ -682,26 +690,31 @@ label {
   display: block;
   white-space: nowrap;
   font-size: 1.4rem;
-  padding: 0 0 .5rem;
+  padding: 0 0 0.5rem;
 }
 
-input[type="text"], input[type="email"], textarea {
+input[type="text"],
+input[type="email"],
+textarea {
   position: relative;
   width: 100%;
   padding: 1.2rem;
   line-height: 1;
-  border: .1rem solid var(--color-black);
+  border: 0.1rem solid var(--color-black);
   background-color: var(--color-white);
   box-shadow: none;
   outline: 0;
 }
 
-input[type="text"], input[type="email"] {
+input[type="text"],
+input[type="email"] {
   padding-right: 3rem;
 }
 
-input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
-  border: .1rem solid var(--color-grey);
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border: 0.1rem solid var(--color-grey);
 }
 
 ::placeholder {
