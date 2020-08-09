@@ -45,13 +45,13 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 A ```README.md``` file.
 
 ## Tasks
-* [ ] 0. basic comment structure
-* [ ] 1. more comment basic structure
-* [ ] 2. create labels and input container
-* [ ] 3. create the inputs
-* [ ] 4. add help messages
-* [ ] 5. add pure HTML / CSS error handling
-* [ ] 6. add the search form
+* [x] 0. basic comment structure
+* [x] 1. more comment basic structure
+* [x] 2. create labels and input container
+* [x] 3. create the inputs
+* [x] 4. add help messages
+* [x] 5. add pure HTML / CSS error handling
+* [x] 6. add the search form
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  

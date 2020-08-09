@@ -9,7 +9,7 @@
 * [x] 583 0x02. Advanced CSS
 * [x] 363 0x03. Sass & Scss
 * [x] 598 0x04. Flexbox
-* [ ] 599 0x05. Forms
+* [x] 599 0x05. Forms
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
