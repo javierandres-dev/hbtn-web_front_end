@@ -10,6 +10,7 @@
 * [x] 363 0x03. Sass & Scss
 * [x] 598 0x04. Flexbox
 * [x] 599 0x05. Forms
+* [ ] 600 0x06. Responsive design
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
