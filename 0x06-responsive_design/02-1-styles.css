@@ -37,7 +37,7 @@
   --line-height-base: 1.5;
   --line-height-big: 1.8;
   /** SECTION **/
-  --section-padding: 5rem 1.5rem;
+  --section-padding: 5rem 0;
   --section-header-padding: 0 0 3rem;
   --section-header-align: center;
   --section-title-font-size: var(--font-size-xx-large);
@@ -50,7 +50,7 @@
   --section-tagline-font-family: var(--font-family-headings);
   --section-tagline-font-weight: var(--font-weight-bold);
   --section-tagline-margin: 0;
-  --section-body-padding: 2rem 0 0;
+  --section-body-padding: 2rem 0 4rem;
   --section-footer-padding: 3rem 0 0;
   --section-footer-align: center;
   /** HEADER **/
@@ -185,6 +185,10 @@ ul.row {
   width: calc((100% / 2) - 2rem);
 }
 @media all and (max-width: 767px) {
+  :root {
+    --section-padding: 5rem 1.5rem;
+    --section-body-padding: 2rem 0 0;
+  }
   ul.row,
   .row {
     flex-direction: column;
