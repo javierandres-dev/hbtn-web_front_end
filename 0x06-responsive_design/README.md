@@ -30,7 +30,8 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 ## Requirements
 A ```README.md``` file.
 
-![Wireframe of the Techium project - mobile version](wireframe.png)
+## Wireframe of the Techium project - mobile version
+![wireframe](wireframe.png)
 
 ## Tasks
 * [ ] 0. Fix the hero banner
