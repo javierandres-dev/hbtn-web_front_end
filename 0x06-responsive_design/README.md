@@ -34,18 +34,18 @@ A ```README.md``` file.
 ![wireframe](wireframe.png)
 
 ## Tasks
-* [ ] 0. Fix the hero banner
-* [ ] 1. Make the container flexible
-* [ ] 2. Fix layout issues
-* [ ] 3. Generate images with responsive breakpoints
-* [ ] 4. Create the mobile icon and hide the menu
-* [ ] 5. Hamburger!
-* [ ] 6. Add the behavior based on menu-btn state
-* [ ] 7. Make the font size responsive
-* [ ] 8. Improve the "Works" section
-* [ ] 9. Improve the "Footer" section
-* [ ] 10. Fix the top header background
-* [ ] 11. Make the article page responsive
+* [x] 0. Fix the hero banner
+* [x] 1. Make the container flexible
+* [x] 2. Fix layout issues
+* [x] 3. Generate images with responsive breakpoints
+* [x] 4. Create the mobile icon and hide the menu
+* [x] 5. Hamburger!
+* [x] 6. Add the behavior based on menu-btn state
+* [x] 7. Make the font size responsive
+* [x] 8. Improve the "Works" section
+* [x] 9. Improve the "Footer" section
+* [x] 10. Fix the top header background
+* [x] 11. Make the article page responsive
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
