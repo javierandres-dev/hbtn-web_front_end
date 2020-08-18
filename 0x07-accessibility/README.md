@@ -72,6 +72,11 @@
 * [Accessibility Weekly](https://a11yweekly.com/)
 * [European label (Web Accessibility): Euracert - Home page](http://www.euracert.org/en/)
 * [Section508.gov | GSA Government-wide IT Accessibility Program](https://www.section508.gov/)
+* [More Transparent UI Code with Namespaces](https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/)
+* [Contrast Ratio](https://developers.google.com/web/tools/chrome-devtools/accessibility/reference)
+* [Font Awesome](https://fontawesome.com/)
+* [headingsMap](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi?hl=en)
+* [Landmarks](http://matatk.agrip.org.uk/landmarks/)
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/2012/04/feynman-technique/), without the help of Google:
