@@ -11,7 +11,7 @@
 * [x] 598 0x04. Flexbox
 * [x] 599 0x05. Forms
 * [x] 600 0x06. Responsive design
-* [ ] 601 0x07. Accessibility
+* [x] 601 0x07. Accessibility
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
