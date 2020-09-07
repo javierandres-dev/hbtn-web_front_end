@@ -12,6 +12,7 @@
 * [x] 599 0x05. Forms
 * [x] 600 0x06. Responsive design
 * [x] 601 0x07. Accessibility
+* [ ] 623 0x0A. Bootstrap
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
