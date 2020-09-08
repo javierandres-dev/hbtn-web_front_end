@@ -25,13 +25,13 @@ At the end of this project, you are expected to be able to [explain to anyone](h
   ```
 
 ## Tasks
-* [ ] 0. Reboot styling
-* [ ] 1. Blocks
-* [ ] 2. Table of chemical elements
-* [ ] 3. Cards
-* [ ] 4. Bob Dylan
-* [ ] 5. Show/Hide - screen size
-* [ ] 6. Overwrite CSS
+* [x] 0. Reboot styling
+* [x] 1. Blocks
+* [x] 2. Table of chemical elements
+* [x] 3. Cards
+* [x] 4. Bob Dylan
+* [x] 5. Show/Hide - screen size
+* [x] 6. Overwrite CSS
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
