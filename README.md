@@ -13,6 +13,8 @@
 * [x] 600 0x06. Responsive design
 * [x] 601 0x07. Accessibility
 * [x] 623 0x0A. Bootstrap
+* [ ] 624 0x0B. Implement a design with bootstrap
+* [ ] 625 0x0C. Javascript advanced
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
