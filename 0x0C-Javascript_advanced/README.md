@@ -41,9 +41,9 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 * [x] 10. Execution stack & timing execution
 * [x] 11. Changing stack order using setTimeout
 * [x] 12. Binding
-* [ ] 13. Binding + Closure
-* [ ] 14. Simple callback
-* [ ] 15. Multiple callbacks
+* [x] 13. Binding + Closure
+* [x] 14. Simple callback
+* [x] 15. Multiple callbacks
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
