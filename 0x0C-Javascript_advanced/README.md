@@ -28,19 +28,19 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 * All your files should end with a new line.
 
 ## Tasks
-* [ ] 0. Lexical scoping and welcome message
-* [ ] 1. Closure Scope Chain
-* [ ] 2. Closure
-* [ ] 3. Closure and loops
-* [ ] 4. Complex Closure
-* [ ] 5. Changing DOM with closure
-* [ ] 6. Private methods with closure
-* [ ] 7. Stack order and setTimeout
-* [ ] 8. Stack order in functions
-* [ ] 9. Prime numbers & timing execution
-* [ ] 10. Execution stack & timing execution
-* [ ] 11. Changing stack order using setTimeout
-* [ ] 12. Binding
+* [x] 0. Lexical scoping and welcome message
+* [x] 1. Closure Scope Chain
+* [x] 2. Closure
+* [x] 3. Closure and loops
+* [x] 4. Complex Closure
+* [x] 5. Changing DOM with closure
+* [x] 6. Private methods with closure
+* [x] 7. Stack order and setTimeout
+* [x] 8. Stack order in functions
+* [x] 9. Prime numbers & timing execution
+* [x] 10. Execution stack & timing execution
+* [x] 11. Changing stack order using setTimeout
+* [x] 12. Binding
 * [ ] 13. Binding + Closure
 * [ ] 14. Simple callback
 * [ ] 15. Multiple callbacks
