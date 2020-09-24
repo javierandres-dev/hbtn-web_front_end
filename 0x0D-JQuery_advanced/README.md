@@ -26,19 +26,19 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 * All your files should end with a new line.
 
 ## Tasks
-* [ ] 0. Setup your dev environment
-* [ ] 1. Creating a DOM element
-* [ ] 2. Creating multiple DOM elements at once
-* [ ] 3. Chain DOM elements
-* [ ] 4. HTML function
-* [ ] 5. Click attribute and remove function
-* [ ] 6. Val, before, and prepend functions
-* [ ] 7. Query - Setup your dev environment
-* [ ] 8. Pagination
-* [ ] 9. Wrap/unwrap
-* [ ] 10. Another Get API
-* [ ] 11. Post query
-* [ ] 12. Delete query
+* [x] 0. Setup your dev environment
+* [x] 1. Creating a DOM element
+* [x] 2. Creating multiple DOM elements at once
+* [x] 3. Chain DOM elements
+* [x] 4. HTML function
+* [x] 5. Click attribute and remove function
+* [x] 6. Val, before, and prepend functions
+* [x] 7. Query - Setup your dev environment
+* [x] 8. Pagination
+* [x] 9. Wrap/unwrap
+* [x] 10. Another Get API
+* [x] 11. Post query
+* [x] 12. Delete query
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
