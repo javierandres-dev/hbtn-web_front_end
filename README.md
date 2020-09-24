@@ -15,6 +15,7 @@
 * [x] 623 0x0A. Bootstrap
 * [ ] 624 0x0B. Implement a design with bootstrap
 * [x] 625 0x0C. Javascript advanced
+* [ ] 626 0x0D. JQuery advanced
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
