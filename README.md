@@ -16,6 +16,7 @@
 * [ ] 624 0x0B. Implement a design with bootstrap
 * [x] 625 0x0C. Javascript advanced
 * [x] 626 0x0D. JQuery advanced
+* [ ] 627 0x0E. Cookies & local storage
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
