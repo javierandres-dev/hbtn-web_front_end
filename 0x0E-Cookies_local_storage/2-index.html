@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Task 2</title>
+  </head>
+  <body>
+    <section>
+      <h1>Login to the website</h1>
+      <input type="text" id="firstname" placeholder="Firstname" />
+      <input type="text" id="email" placeholder="Email" />
+      <button id="logIn" onclick="setCookies()">Log me in</button>
+    </section>
+    <section>
+      <h1>Cookies</h1>
+      <button id="showCookies" onclick="showCookies()">Show the cookies</button>
+    </section>
+  </body>
+  <script>
+    const setCookies = () => {
+      const $firstname = document.getElementById("firstname").value;
+      const $email = document.getElementById("email").value;
+      document.cookie = `firstname = ${$firstname}`;
+      document.cookie = `email = ${$email}`;
+      document.cookie = "max-age=864000";
+    };
+    const showCookies = () => {
+      let s = document.querySelectorAll("section");
+      s = s[1];
+      const p = document.createElement("p");
+      p.innerText = `Email: ${getCookie("email")} - Firstname: ${getCookie(
+        "firstname"
+      )}`;
+      s.appendChild(p);
+    };
+    const getCookie = (name) => {
+      const array = document.cookie.split("; ");
+      for (let idx = array.length - 1; idx >= 0; --idx) {
+        let keyVal = array[idx].split("=");
+        if (keyVal[0] === name) {
+          return keyVal[1].toUpperCase();
+          break;
+        }
+      }
+      return "";
+    };
+  </script>
+</html>
