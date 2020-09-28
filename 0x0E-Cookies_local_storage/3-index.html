@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Task 3</title>
+  </head>
+  <body>
+    <div id="form">
+      <h2>Login to the website</h2>
+      <input type="text" id="firstname" placeholder="Firstname" />
+      <input type="text" id="email" placeholder="Email" />
+      <button id="logIn" onclick="setCookies()">Log me in</button>
+    </div>
+  </body>
+  <script>
+    const setCookies = () => {
+      const $firstname = document.getElementById("firstname").value;
+      const $email = document.getElementById("email").value;
+      document.cookie = `firstname = ${$firstname}`;
+      document.cookie = `email = ${$email}`;
+      document.cookie = "max-age=864000";
+      showWelcomeMessageOrForm();
+    };
+    const showCookies = () => {
+      let s = document.querySelectorAll("section");
+      s = s[1];
+      const p = document.createElement("p");
+      p.innerText = `Email: ${getCookie("email")} - Firstname: ${getCookie(
+        "firstname"
+      )}`;
+      s.appendChild(p);
+    };
+    const getCookie = (name) => {
+      const array = document.cookie.split("; ");
+      for (let idx = array.length - 1; idx >= 0; --idx) {
+        let keyVal = array[idx].split("=");
+        if (keyVal[0] === name) {
+          return keyVal[1].toUpperCase();
+          break;
+        }
+      }
+      return "";
+    };
+    const showForm = () => {
+      const $welcome = document.getElementById("welcome");
+      welcome.remove();
+      document.getElementById("form").style.display = "block";
+    };
+    const hideForm = () => {
+      const $form = document.getElementById("form");
+      $form.style.display = "none";
+    };
+    const deleteCookiesAndShowForm = () => {
+      document.cookie =
+        "firstname=; email=; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
+      showForm();
+    };
+    const showWelcomeMessageOrForm = () => {
+      const name = getCookie("firstname");
+      const mail = getCookie("email");
+      if (name && mail) {
+        hideForm();
+        const h1 = document.createElement("h1");
+        const a = document.createElement("a");
+        h1.setAttribute("id", "welcome");
+        h1.innerText = `Welcome: ${name}`;
+        a.innerText = "(logout)";
+        a.setAttribute("onclick", "deleteCookiesAndShowForm()");
+        a.style.fontWeight = "normal";
+        a.style.fontStyle = "italic";
+        a.style.marginLeft = "10px";
+        h1.appendChild(a);
+        document.body.appendChild(h1);
+        document.getElementById("welcome").style.display = "block";
+      } else showForm();
+    };
+  </script>
+</html>
