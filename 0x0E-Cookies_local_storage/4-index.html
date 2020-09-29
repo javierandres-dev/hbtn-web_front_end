@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Task 4</title>
+  </head>
+  <body>
+    <div id="form">
+      <h2>Login to the website</h2>
+      <input type="text" id="firstname" placeholder="Firstname" />
+      <input type="text" id="email" placeholder="Email" />
+      <button id="logIn" onclick="setCookies()">Log me in</button>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+  <script>
+    const setCookies = () => {
+      Cookies.set("firstname", document.getElementById("firstname").value, {
+        expires: 10,
+        path: "",
+      });
+      Cookies.set("email", document.getElementById("email").value, {
+        expires: 10,
+        path: "",
+      });
+      showWelcomeMessageOrForm();
+    };
+    const showForm = () => {
+      const $form = document.getElementById("form");
+      $form.style.display = "block";
+    };
+    const hideForm = () => {
+      const $form = document.getElementById("form");
+      $form.style.display = "none";
+    };
+    const deleteCookiesAndShowForm = () => {
+      const $welcome = document.getElementById("welcome");
+      $welcome.remove();
+      Cookies.remove("firstname", { path: "" });
+      Cookies.remove("email", { path: "" });
+      showForm();
+    };
+    const showWelcomeMessageOrForm = () => {
+      const name = Cookies.get("firstname");
+      const mail = Cookies.get("email");
+      if (name && mail) {
+        hideForm();
+        const h1 = document.createElement("h1");
+        const a = document.createElement("a");
+        h1.setAttribute("id", "welcome");
+        h1.innerText = `Welcome: ${name}`;
+        a.innerText = "(logout)";
+        a.setAttribute("onclick", "deleteCookiesAndShowForm()");
+        a.style.fontWeight = "normal";
+        a.style.fontStyle = "italic";
+        a.style.marginLeft = "10px";
+        h1.appendChild(a);
+        document.body.appendChild(h1);
+        document.getElementById("welcome").style.display = "block";
+      } else showForm();
+    };
+  </script>
+</html>
