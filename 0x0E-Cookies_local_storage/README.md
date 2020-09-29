@@ -26,14 +26,14 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 * All your files should end with a new line.
 
 ## Tasks
-* [ ] 0. Create basic cookie
-* [ ] 1. Create cookie with expiration date and specific path
-* [ ] 2. Read cookie
-* [ ] 3. Delete cookie and mini application
-* [ ] 4. Use js-cookie
-* [ ] 5. Local storage
-* [ ] 6. Session storage
-* [ ] 7. Advanced use of web storage
+* [x] 0. Create basic cookie
+* [x] 1. Create cookie with expiration date and specific path
+* [x] 2. Read cookie
+* [x] 3. Delete cookie and mini application
+* [x] 4. Use js-cookie
+* [x] 5. Local storage
+* [x] 6. Session storage
+* [x] 7. Advanced use of web storage
 
 ## Software engineer
 Javier Andrés Garzón Patarroyo  
